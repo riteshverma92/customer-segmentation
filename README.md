@@ -10,6 +10,7 @@ It is useful for:
 
 ## 📂 Project Structure
 customer-segmentation/
+
 │
 ├── data/
 │ ├── raw/ # Original dataset

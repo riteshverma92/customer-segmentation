@@ -6,36 +6,8 @@ a **Decision Tree Classifier** to predict which cluster a new customer belongs t
 It is useful for:
 - 📈 Marketing strategies  
 - 🎯 Targeted campaigns  
-- 🛒 Customer behavior insights  
-
-## 📂 Project Structure
-customer-segmentation/
-
-│
-├── data/
-│ ├── raw/ # Original dataset
-│ ├── processed/ # Preprocessed dataset with clusters
-│
-├── models/ # Saved KMeans + Decision Tree models
-├── reports/ # Evaluation reports & confusion matrix
-│
-├── src/ # Source code
-│ ├── preprocessing.py # Data cleaning & preprocessing
-│ ├── clustering.py # KMeans clustering pipeline
-│ ├── classification.py # Decision Tree training
-│ ├── evaluation.py # Evaluation of clustering & classification
-│ ├── predict.py # Make predictions on new data
-│ ├── train.py # Main pipeline (runs preprocessing + training)
-│
-├── notebooks/ # Jupyter notebooks (optional exploration)
-│
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
-
-
-
----
-
+- 🛒 Customer behavior insights
+  
 ## 📊 Dataset
 
 The dataset contains customer transactions and behavior patterns.  

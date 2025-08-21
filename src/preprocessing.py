@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 def load_and_preprocess(file_path: Union[str, bytes]) -> pd.DataFrame:
     """
     Load a CSV file, clean it by removing unused columns, 
-    and handle missing values with column means.
+    and handle missing values with column medians.
 
     Parameters
     ----------
@@ -18,7 +18,7 @@ def load_and_preprocess(file_path: Union[str, bytes]) -> pd.DataFrame:
     Returns
     -------
     pd.DataFrame
-        Preprocessed DataFrame with missing values filled and 
+        Preprocessed DataFrame with missing values filled with median and 
         unnecessary columns removed.
     """
     try:
@@ -36,14 +36,14 @@ def load_and_preprocess(file_path: Union[str, bytes]) -> pd.DataFrame:
     df = df.drop(columns=[col for col in columns_to_drop if col in df.columns], errors="ignore")
     logging.info("Dropped unused columns: %s", columns_to_drop)
 
-    # Fill missing values with mean for selected numeric columns
+    # Fill missing values with median for selected numeric columns
     columns_to_fill = ["MINIMUM_PAYMENTS", "CREDIT_LIMIT"]
     for col in columns_to_fill:
         if col in df.columns:
-            mean_value = df[col].mean()
+            median_value = df[col].median()
             missing_count = df[col].isna().sum()
-            df[col] = df[col].fillna(mean_value)
-            logging.info("Filled %d missing values in '%s' with mean: %f", missing_count, col, mean_value)
+            df[col] = df[col].fillna(median_value)
+            logging.info("Filled %d missing values in '%s' with median: %f", missing_count, col, median_value)
 
     logging.info("Preprocessing completed. Final shape: %s", df.shape)
     return df

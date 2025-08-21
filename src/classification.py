@@ -6,34 +6,24 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.metrics import (
+    classification_report, confusion_matrix,
+    accuracy_score, precision_score, recall_score, f1_score
+)
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
 
-# Configure logging once for the module
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 def train_decision_tree(
     df: pd.DataFrame,
     target_col: str = "Cluster",
-    save_path: Union[str, bytes] = "models/decision_tree.joblib"
+    save_path: Union[str, bytes] = "models/decision_tree.joblib",
+    report_folder: str = "reports"
 ) -> Pipeline:
-    """
-    Train a Decision Tree classifier with scaling and save the pipeline.
+    os.makedirs(report_folder, exist_ok=True)
 
-    Parameters
-    ----------
-    df : pd.DataFrame
-        Dataset containing features and target.
-    target_col : str, optional
-        Name of the target column. Default is "Cluster".
-    save_path : str, optional
-        Where to save the trained pipeline. Default is "models/decision_tree.joblib".
-
-    Returns
-    -------
-    Pipeline
-        Trained pipeline with StandardScaler and DecisionTreeClassifier.
-    """
-    # Split features and labels
     X = df.drop(columns=[target_col])
     y = df[target_col]
 
@@ -51,9 +41,36 @@ def train_decision_tree(
 
     # Evaluate
     y_pred = pipeline.predict(X_test)
-    logging.info("Confusion Matrix:\n%s", confusion_matrix(y_test, y_pred))
-    logging.info("Classification Report:\n%s", classification_report(y_test, y_pred))
+    cm = confusion_matrix(y_test, y_pred)
+    cr = classification_report(y_test, y_pred)
 
+    # Metrics
+    acc = accuracy_score(y_test, y_pred)
+    prec = precision_score(y_test, y_pred, average="weighted")
+    rec = recall_score(y_test, y_pred, average="weighted")
+    f1 = f1_score(y_test, y_pred, average="weighted")
+
+    # Save metrics CSV
+    metrics_df = pd.DataFrame({
+        "Metric": ["Accuracy", "Precision", "Recall", "F1-Score"],
+        "Score": [acc, prec, rec, f1]
+    })
+    metrics_df.to_csv(os.path.join(report_folder, "classification_metrics.csv"), index=False)
+
+    # Save classification report
+    with open(os.path.join(report_folder, "classification_report.txt"), "w") as f:
+        f.write(cr)
+
+    # Save confusion matrix plot
+    plt.figure(figsize=(8,6))
+    sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
+    plt.xlabel("Predicted")
+    plt.ylabel("Actual")
+    plt.title("Confusion Matrix")
+    plt.savefig(os.path.join(report_folder, "confusion_matrix.png"))
+    plt.close()
+
+    # Save model
     dump(pipeline, save_path)
     logging.info("Model saved at %s", save_path)
 

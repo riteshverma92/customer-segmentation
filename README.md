@@ -166,14 +166,6 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
 - Summarize findings with plots and statistical insights.  
 - Document results for **business impact**.  
 
-
-### 7️⃣ Deployment & Usage  
-🚀 **Steps:**  
-- Provide scripts for training (`src/train.py`) and prediction (`src/predict.py`).  
-- Ensure reproducibility through environment setup (`requirements.txt`).  
-🎥 **Video Demo:**  
-
-
 ## 📊 Results & Insights  
 
 The clustering and classification models provided **valuable insights** into customer behavior, enabling data-driven decision-making for financial services.  

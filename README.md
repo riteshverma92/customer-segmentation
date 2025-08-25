@@ -130,19 +130,7 @@ python -m src.train
 ### 2. Predict Models  
 ```bash
 python -m src.predict
-```  
-## 📊 Results & Insights  
-
-The clustering and classification models provided valuable insights into customer behavior, enabling data-driven decision-making for financial services. By leveraging K-Means and DBSCAN for segmentation, and a Decision Tree Classifier for prediction, the analysis revealed clear behavioral patterns across customer groups.  
-
-### Key Insights:  
-- **Distinct Customer Segments:** Segmentation uncovered groups such as high spenders, installment-focused users, and cash-advance-reliant customers.  
-- **Behavioral Profiling:** Each cluster exhibited unique spending frequency, repayment discipline, and credit utilization trends.  
-- **Predictive Power:** The Decision Tree Classifier achieved strong accuracy in assigning new customers to the most relevant segment.  
-- **Business Value:** These insights support personalized marketing strategies, credit risk assessment, and customer retention initiatives.  
-
-
-
+```
 ## 🔄 Project Flow  
 
 The project follows a structured pipeline to ensure reproducibility, clarity, and scalability:  
@@ -176,4 +164,18 @@ The project follows a structured pipeline to ensure reproducibility, clarity, an
 7. **Deployment & Usage**  
    - Provide scripts for training (`src/train.py`) and prediction (`src/predict.py`).  
    - Ensure reproducibility through environment setup (`requirements.txt`).  
+
+
+## 📊 Results & Insights  
+
+The clustering and classification models provided valuable insights into customer behavior, enabling data-driven decision-making for financial services. By leveraging K-Means and DBSCAN for segmentation, and a Decision Tree Classifier for prediction, the analysis revealed clear behavioral patterns across customer groups.  
+
+### Key Insights:  
+- **Distinct Customer Segments:** Segmentation uncovered groups such as high spenders, installment-focused users, and cash-advance-reliant customers.  
+- **Behavioral Profiling:** Each cluster exhibited unique spending frequency, repayment discipline, and credit utilization trends.  
+- **Predictive Power:** The Decision Tree Classifier achieved strong accuracy in assigning new customers to the most relevant segment.  
+- **Business Value:** These insights support personalized marketing strategies, credit risk assessment, and customer retention initiatives.  
+
+
+
 

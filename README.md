@@ -21,11 +21,10 @@ This project focuses on a comprehensive analysis of credit card usage data to pe
   - [4. Install Dependencies](#4-install-dependencies)  
 - [🏃 Running the Project](#-running-the-project)  
   - [1. Train Models](#1-train-models)  
-  - [2. Predict Models](#2-predict-models)  
+  - [2. Predict Models](#2-predict-models)
+- [Project Flow](#-project-flow)
 - [📊 Results & Insights](#-results--insights)  
-- [📈 Future Enhancements](#-future-enhancements)  
-- [🤝 Contributing](#-contributing)  
-- [📜 License](#-license)  
+  
 
 ## 🎯 Objectives  
 

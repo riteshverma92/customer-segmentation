@@ -135,9 +135,8 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
 ### 1️⃣ Data Collection & Understanding  
 📂 **Steps:**  
 - Load and explore the dataset (customer transactions & credit card behavior).  
-- Perform initial **exploratory data analysis (EDA)**.  
----
-
+- Perform initial **exploratory data analysis (EDA)**.
+- 
 ### 2️⃣ Data Preprocessing  
 🛠️ **Steps:**  
 - Handle missing values (e.g., `MINIMUM_PAYMENTS`).  

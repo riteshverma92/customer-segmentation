@@ -132,37 +132,32 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
 
 ---
 
-### 1️⃣ Data Collection & Understanding  
-📂 **Steps:**  
+### 1️⃣ Data Collection & Understanding   
 - Load and explore the dataset (customer transactions & credit card behavior).  
 - Perform initial **exploratory data analysis (EDA)**.
-- 
+  
 ### 2️⃣ Data Preprocessing  
-🛠️ **Steps:**  
 - Handle missing values (e.g., `MINIMUM_PAYMENTS`).  
 - Normalize/scale numerical features for clustering.  
 - Feature engineering and selection.  
 
 ### 3️⃣ Unsupervised Learning (Segmentation)  
-📊 **Approach:**  
+ 
 - Apply **K-Means Clustering** to group customers based on behavior.  
 - Experiment with **DBSCAN** to capture non-linear clusters.  
 - Evaluate clusters using metrics (e.g., silhouette score).  
 
 ### 4️⃣ Cluster Profiling & Insights  
-🔍 **Analysis:**  
 - Analyze behavioral patterns in each cluster.  
 - Identify high-value customers, risky profiles, and unique segments.  
 
 
 ### 5️⃣ Supervised Learning (Classification)  
-🤖 **Steps:**  
 - Train a **Decision Tree Classifier** to predict customer clusters.  
 - Validate model performance on unseen data.  
 
 
-### 6️⃣ Visualization & Reporting  
-📈 **Approach:**  
+### 6️⃣ Visualization & Reporting   
 - Summarize findings with plots and statistical insights.  
 - Document results for **business impact**.  
 

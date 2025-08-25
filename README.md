@@ -1,12 +1,7 @@
 # Credit Card Customer Segmentation & Classification 💳 
 <img width="700" height="350" alt="7c2b3102-b703-4e90-ac02-2ca6fe5461c1" src="https://github.com/user-attachments/assets/4c320060-b936-4026-8103-9b0925cc0e30" />
- 
 
-## Project Overview  
-This project focuses on a comprehensive analysis of credit card usage data to perform customer segmentation and classification. Using unsupervised learning techniques, specifically K-Means Clustering, customers are grouped into distinct segments based on their spending behaviors. Subsequently, a Decision Tree Classifier is trained to predict the cluster a new customer would belong to, providing a powerful tool for targeted marketing and strategic financial planning.  
-
----
-## 📑 Table of Contents  
+ ## 📑 Table of Contents  
 
 - [📌 Project Overview](#-project-overview)  
 - [🎯 Objectives](#-objectives)  
@@ -23,6 +18,12 @@ This project focuses on a comprehensive analysis of credit card usage data to pe
 - [Project Flow](#-project-flow)
 - [📊 Results & Insights](#-results--insights)  
   
+
+## Project Overview  
+This project focuses on a comprehensive analysis of credit card usage data to perform customer segmentation and classification. Using unsupervised learning techniques, specifically K-Means Clustering, customers are grouped into distinct segments based on their spending behaviors. Subsequently, a Decision Tree Classifier is trained to predict the cluster a new customer would belong to, providing a powerful tool for targeted marketing and strategic financial planning.  
+
+---
+
 
 ## 🎯 Objectives  
 

@@ -1,5 +1,5 @@
 # Credit Card Customer Segmentation & Classification 💳 
-<img width="1024" height="1024" alt="7c2b3102-b703-4e90-ac02-2ca6fe5461c1" src="https://github.com/user-attachments/assets/4c320060-b936-4026-8103-9b0925cc0e30" />
+<img width="600" height="600" alt="7c2b3102-b703-4e90-ac02-2ca6fe5461c1" src="https://github.com/user-attachments/assets/4c320060-b936-4026-8103-9b0925cc0e30" />
  
 
 ## Project Overview  

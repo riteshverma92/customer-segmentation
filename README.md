@@ -143,8 +143,38 @@ The clustering and classification models provided valuable insights into custome
 - **Business Value:** These insights support personalized marketing strategies, credit risk assessment, and customer retention initiatives.  
 
 
-## 📽️ Project Flow  
 
-![Project Flow](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3A5Nnd6bWh3M2U5M3p3Y2lnOWtmNmNqNnI1c2k0OXI2aGplazQxOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26n6WywJyh39n1pBu/giphy.gif)  
+## 🔄 Project Flow  
 
----
+The project follows a structured pipeline to ensure reproducibility, clarity, and scalability:  
+
+1. **Data Collection & Understanding**  
+   - Load and explore the dataset (customer transactions & credit card behavior).  
+   - Perform initial exploratory data analysis (EDA).  
+
+2. **Data Preprocessing**  
+   - Handle missing values (e.g., `MINIMUM_PAYMENTS`).  
+   - Normalize/scale numerical features for clustering.  
+   - Feature engineering and selection.  
+
+3. **Unsupervised Learning (Segmentation)**  
+   - Apply **K-Means Clustering** to group customers based on behavior.  
+   - Experiment with **DBSCAN** to capture non-linear clusters.  
+   - Evaluate clusters using metrics (e.g., silhouette score).  
+
+4. **Cluster Profiling & Insights**  
+   - Analyze behavioral patterns in each cluster.  
+   - Identify high-value customers, risky profiles, and unique segments.  
+
+5. **Supervised Learning (Classification)**  
+   - Train a **Decision Tree Classifier** to predict customer clusters.  
+   - Validate model performance on unseen data.  
+
+6. **Visualization & Reporting**  
+   - Summarize findings with plots and statistical insights.  
+   - Document results for business impact.  
+
+7. **Deployment & Usage**  
+   - Provide scripts for training (`src/train.py`) and prediction (`src/predict.py`).  
+   - Ensure reproducibility through environment setup (`requirements.txt`).  
+

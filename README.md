@@ -37,21 +37,21 @@ This project focuses on a comprehensive analysis of credit card usage data to pe
 This project leverages a modern data science and machine learning stack to ensure efficient data processing, robust modeling, and professional visualization.  
 
 ### Languages & Core Libraries  
-- ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python) — Primary programming language for analysis and model development.  
-- ![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-lightgrey?logo=numpy) — High-performance numerical computations.  
-- ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange?logo=pandas) — Data manipulation and preprocessing.  
+- ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python) Primary programming language for analysis and model development.  
+- ![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-lightgrey?logo=numpy) High-performance numerical computations.  
+- ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange?logo=pandas) Data manipulation and preprocessing.  
 
 ### Machine Learning & Modeling  
-- ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML%20Models-green?logo=scikitlearn) — Algorithms and evaluation (K-Means, DBSCAN, Decision Tree Classifier).  
+- ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML%20Models-green?logo=scikitlearn) Algorithms and evaluation (K-Means, DBSCAN, Decision Tree Classifier).  
 
 ### Visualization  
-- ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet?logo=plotly) — Core data visualization.  
-- ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-9cf) — Statistical and exploratory data analysis.  
+- ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet?logo=plotly) Core data visualization.  
+- ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-9cf) Statistical and exploratory data analysis.  
 
 ### Development & Collaboration  
-- ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange?logo=jupyter) — Interactive development and experimentation.  
-- ![venv](https://img.shields.io/badge/venv-Virtual%20Environment-yellow) — Isolated project environment for dependencies.  
-- ![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github) — Version control and collaboration platform.  
+- ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange?logo=jupyter) Interactive development and experimentation.  
+- ![venv](https://img.shields.io/badge/venv-Virtual%20Environment-yellow) Isolated project environment for dependencies.  
+- ![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github) Version control and collaboration platform.  
 
 
 ## 📊 Dataset  

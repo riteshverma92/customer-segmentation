@@ -133,48 +133,87 @@ python -m src.predict
 ```
 ## 🔄 Project Flow  
 
-The project follows a structured pipeline to ensure reproducibility, clarity, and scalability:  
+The project follows a **structured pipeline** to ensure reproducibility, clarity, and scalability:  
 
-1. **Data Collection & Understanding**  
-   - Load and explore the dataset (customer transactions & credit card behavior).  
-   - Perform initial exploratory data analysis (EDA).  
+---
 
-2. **Data Preprocessing**  
-   - Handle missing values (e.g., `MINIMUM_PAYMENTS`).  
-   - Normalize/scale numerical features for clustering.  
-   - Feature engineering and selection.  
+### 1️⃣ Data Collection & Understanding  
+📂 **Steps:**  
+- Load and explore the dataset (customer transactions & credit card behavior).  
+- Perform initial **exploratory data analysis (EDA)**.  
+![EDA Example](https://miro.medium.com/v2/resize:fit:1200/format:webp/1*qN7MZ4J4yq8uU0F4pQ5sQA.png)  
 
-3. **Unsupervised Learning (Segmentation)**  
-   - Apply **K-Means Clustering** to group customers based on behavior.  
-   - Experiment with **DBSCAN** to capture non-linear clusters.  
-   - Evaluate clusters using metrics (e.g., silhouette score).  
+---
 
-4. **Cluster Profiling & Insights**  
-   - Analyze behavioral patterns in each cluster.  
-   - Identify high-value customers, risky profiles, and unique segments.  
+### 2️⃣ Data Preprocessing  
+🛠️ **Steps:**  
+- Handle missing values (e.g., `MINIMUM_PAYMENTS`).  
+- Normalize/scale numerical features for clustering.  
+- Feature engineering and selection.  
+![Data Cleaning GIF](https://media.giphy.com/media/l0Exk8EUzSLsrErEQ/giphy.gif)  
 
-5. **Supervised Learning (Classification)**  
-   - Train a **Decision Tree Classifier** to predict customer clusters.  
-   - Validate model performance on unseen data.  
+---
 
-6. **Visualization & Reporting**  
-   - Summarize findings with plots and statistical insights.  
-   - Document results for business impact.  
+### 3️⃣ Unsupervised Learning (Segmentation)  
+📊 **Approach:**  
+- Apply **K-Means Clustering** to group customers based on behavior.  
+- Experiment with **DBSCAN** to capture non-linear clusters.  
+- Evaluate clusters using metrics (e.g., silhouette score).  
+![Clustering Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/K-means_convergence.gif/220px-K-means_convergence.gif)  
 
-7. **Deployment & Usage**  
-   - Provide scripts for training (`src/train.py`) and prediction (`src/predict.py`).  
-   - Ensure reproducibility through environment setup (`requirements.txt`).  
+---
 
+### 4️⃣ Cluster Profiling & Insights  
+🔍 **Analysis:**  
+- Analyze behavioral patterns in each cluster.  
+- Identify high-value customers, risky profiles, and unique segments.  
+![Customer Segments](https://cdn.analyticsvidhya.com/wp-content/uploads/2021/04/customer-segmentation.png)  
+
+---
+
+### 5️⃣ Supervised Learning (Classification)  
+🤖 **Steps:**  
+- Train a **Decision Tree Classifier** to predict customer clusters.  
+- Validate model performance on unseen data.  
+![Decision Tree Example](https://upload.wikimedia.org/wikipedia/commons/f/f7/Decision_Tree.png)  
+
+---
+
+### 6️⃣ Visualization & Reporting  
+📈 **Approach:**  
+- Summarize findings with plots and statistical insights.  
+- Document results for **business impact**.  
+[Example Dashboard GIF](https://media.giphy.com/media/xT9IgjV0f4i8x8yqkY/giphy.gif)  
+
+---
+
+### 7️⃣ Deployment & Usage  
+🚀 **Steps:**  
+- Provide scripts for training (`src/train.py`) and prediction (`src/predict.py`).  
+- Ensure reproducibility through environment setup (`requirements.txt`).  
+🎥 **Video Demo:**  
+[![Watch the demo](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  
+
+---
 
 ## 📊 Results & Insights  
 
-The clustering and classification models provided valuable insights into customer behavior, enabling data-driven decision-making for financial services. By leveraging K-Means and DBSCAN for segmentation, and a Decision Tree Classifier for prediction, the analysis revealed clear behavioral patterns across customer groups.  
+The clustering and classification models provided **valuable insights** into customer behavior, enabling data-driven decision-making for financial services.  
 
 ### Key Insights:  
-- **Distinct Customer Segments:** Segmentation uncovered groups such as high spenders, installment-focused users, and cash-advance-reliant customers.  
-- **Behavioral Profiling:** Each cluster exhibited unique spending frequency, repayment discipline, and credit utilization trends.  
-- **Predictive Power:** The Decision Tree Classifier achieved strong accuracy in assigning new customers to the most relevant segment.  
-- **Business Value:** These insights support personalized marketing strategies, credit risk assessment, and customer retention initiatives.  
+- 🌟 **Distinct Customer Segments:** High spenders, installment-focused users, cash-advance-reliant customers.  
+- 🧠 **Behavioral Profiling:** Unique spending frequency, repayment discipline, and credit utilization trends.  
+- ✅ **Predictive Power:** Decision Tree Classifier accurately assigns new customers to relevant segments.  
+- 💼 **Business Value:** Supports personalized marketing, credit risk assessment, and customer retention.  
+
+![Customer Insights GIF](https://media.giphy.com/media/3o7TKPcTx0yQvWLs4Q/giphy.gif)  
+
+---
+
+### 🔗 Interactive Dashboard (Optional)  
+You can embed dashboards using **iframe** if hosting on platforms like **Tableau, PowerBI, or Streamlit**:  
+```html
+<iframe src="https://public.tableau.com/views/SampleDashboard/Sheet1?:embed=y&:display_count=yes" width="800" height="600"></iframe>
 
 
 

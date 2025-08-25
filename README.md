@@ -61,29 +61,29 @@ This project leverages a modern data science and machine learning stack to ensur
 
 ## 📊 Dataset  
 
-The dataset provides comprehensive information on credit card customers, capturing their transaction patterns, spending frequency, cash advances, credit utilization, payment behavior, and tenure with the bank. It includes features such as purchase amounts, installment purchases, cash advance transactions, credit limits, and repayment history, making it well-suited for customer segmentation and predictive modeling. This dataset is widely used in clustering and classification projects to derive insights into customer behavior and financial profiles.  
+The dataset provides comprehensive information on **credit card customers**, capturing their **transaction patterns, spending frequency, cash advances, credit utilization, payment behavior, and tenure with the bank**. It includes features such as purchase amounts, installment purchases, cash advance transactions, credit limits, and repayment history, making it well-suited for **customer segmentation** and **predictive modeling**.  
 
-📂 You can access a public version of the dataset here: [Credit Card Customer Segmentation Dataset – Kaggle](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)  
+📂 **Dataset Access:** [Credit Card Customer Segmentation – Kaggle](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)  
 
 ---
 
-The dataset captures multiple dimensions of customer credit card usage, organized into four key categories:  
+### 🔑 Key Categories & Features  
 
-- **Customer Identity**  
+- **👤 Customer Identity**  
   - `CUST_ID`: Unique customer identifier  
 
-- **Transaction Behavior**  
+- **💳 Transaction Behavior**  
   - `PURCHASES`, `ONEOFF_PURCHASES`, `INSTALLMENTS_PURCHASES`, `PURCHASES_TRX`  
   - `PURCHASES_FREQUENCY`, `ONEOFF_PURCHASES_FREQUENCY`, `PURCHASES_INSTALLMENTS_FREQUENCY`  
 
-- **Credit & Cash Advances**  
+- **🏦 Credit & Cash Advances**  
   - `BALANCE`, `BALANCE_FREQUENCY`, `CREDIT_LIMIT`  
   - `CASH_ADVANCE`, `CASH_ADVANCE_FREQUENCY`, `CASH_ADVANCE_TRX`  
 
-- **Repayment & Financial Discipline**  
+- **📈 Repayment & Financial Discipline**  
   - `PAYMENTS`, `MINIMUM_PAYMENTS`, `PRC_FULL_PAYMENT`  
 
-- **Customer Lifecycle**  
+- **⏳ Customer Lifecycle**  
   - `TENURE`: Length of customer’s relationship with the bank  
 
 ---

@@ -1,7 +1,6 @@
 # Credit Card Customer Segmentation & Classification 💳  
 
-![Credit Card Segmentation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXR0NzJxdTFwNmQ3a3RnZWRudG8wYmhzZjgzM2pjaTJpb2M4anEwaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7btPCcdNniyf0ArS/giphy.gif)  
-
+![Credit Card Segmentation](https://drive.google.com/file/d/1JUA_gU7y56FwhvRebWz3Q61QmiVBrgx4/view?usp=sharing)
 ---
 
 ## Project Overview  

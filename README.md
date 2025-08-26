@@ -19,7 +19,7 @@
 - [Use Cases](#-Use-Cases)
 <p align="right">
   <a href="#credit-card-customer-segmentation--classification">
-    🔝 Back to Top
+    Back to Top
   </a>
 </p>
 
@@ -48,7 +48,11 @@ This project leverages a modern data science and machine learning stack to ensur
 - ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange?logo=jupyter) Interactive development and experimentation.  
 - ![venv](https://img.shields.io/badge/venv-Virtual%20Environment-yellow) Isolated project environment for dependencies.  
 - ![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github) Version control and collaboration platform.
-  <p align="right">[🔝 Back to Top](#top)</p>
+ <p align="right">
+  <a href="#credit-card-customer-segmentation--classification">
+    Back to Top
+  </a>
+</p>
 ---
 ## 📂 Repository Structure
 ```
@@ -82,9 +86,12 @@ CUSTOMER-SEGMENTATION/
 ├── Project_Report.txt
 ├── README.md
 └── requirements.txt
-
 ```
-<p align="right">[🔝 Back to Top](#top)</p>
+<p align="right">
+  <a href="#credit-card-customer-segmentation--classification">
+    Back to Top
+  </a>
+</p>
 ---
 ## 📊 Dataset  
 

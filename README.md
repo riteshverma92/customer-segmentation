@@ -204,11 +204,10 @@ The clustering and classification models provided **valuable insights** into cus
   </tr>
 </table>
 
-### Key Insights:  
+- ✅ **Strong Predictive Power:** The Decision Tree Classifier achieved **91% accuracy**, with precision, recall, and F1-scores consistently high (0.85–0.94), ensuring reliable classification across all customer groups.  
+- 📈 **Balanced Performance:** Macro-average scores of **0.89** indicate fair treatment of smaller clusters, while weighted averages of **0.91** confirm strong performance on larger segments.
 - 🌟 **Distinct Customer Segments:** High spenders, installment-focused users, and cash-advance-reliant customers were clearly identified.  
 - 🧠 **Behavioral Profiling:** Each cluster showed unique patterns in spending frequency, repayment discipline, and credit utilization.  
-- ✅ **Strong Predictive Power:** The Decision Tree Classifier achieved **91% accuracy**, with precision, recall, and F1-scores consistently high (0.85–0.94), ensuring reliable classification across all customer groups.  
-- 📈 **Balanced Performance:** Macro-average scores of **0.89** indicate fair treatment of smaller clusters, while weighted averages of **0.91** confirm strong performance on larger segments.  
 - 💼 **Business Value:** These insights support **personalized marketing**, **credit risk assessment**, and **customer retention strategies**.  
 
 

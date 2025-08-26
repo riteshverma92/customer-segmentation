@@ -48,8 +48,8 @@ This project leverages a modern data science and machine learning stack to ensur
 The dataset provides comprehensive information on **credit card customers**, capturing their **transaction patterns, spending frequency, cash advances, credit utilization, payment behavior, and tenure with the bank**. It includes features such as purchase amounts, installment purchases, cash advance transactions, credit limits, and repayment history, making it well-suited for **customer segmentation** and **predictive modeling**.  
 
 📂 **Dataset Access:** [Credit Card Customer Segmentation – Kaggle](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)  
-
----
+# Preview:
+<img width="1767" height="341" alt="Screenshot 2025-08-26 171500" src="https://github.com/user-attachments/assets/28a5ecbe-d6ed-4ca0-96b1-dafa86d09714" />
 
 ### 🔑 Key Categories & Features  
 

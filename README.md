@@ -16,7 +16,8 @@
   - [2. Predict Models](#2-predict-models)
 - [Project Flow](#-project-flow)
 - [Results & Insights](#-results--insights)  
-  
+
+---
 
 ## 📌 Project Overview
 Project applies a **Machine Learning pipeline** on credit card usage data to perform customer segmentation and classification. Customers are first grouped into segments using **K-Means Clustering**, and then a **Decision Tree Classifier** predicts the segment of new customers, supporting targeted marketing and strategic financial planning.
@@ -41,7 +42,7 @@ This project leverages a modern data science and machine learning stack to ensur
 - ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange?logo=jupyter) Interactive development and experimentation.  
 - ![venv](https://img.shields.io/badge/venv-Virtual%20Environment-yellow) Isolated project environment for dependencies.  
 - ![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github) Version control and collaboration platform.
-
+---
 ## 📂 Repository Structure
 ```
 CUSTOMER-SEGMENTATION/
@@ -77,7 +78,7 @@ CUSTOMER-SEGMENTATION/
 
 ```
 
-
+---
 ## 📊 Dataset  
 
 The dataset provides comprehensive information on **credit card customers**, capturing their **transaction patterns, spending frequency, cash advances, credit utilization, payment behavior, and tenure with the bank**. It includes features such as purchase amounts, installment purchases, cash advance transactions, credit limits, and repayment history, making it well-suited for **customer segmentation** and **predictive modeling**.  
@@ -185,7 +186,7 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
 ### 6️⃣ Visualization & Reporting   
 - Summarize findings with plots and statistical insights.  
 - Document results for **business impact**.  
-
+---
 ## 📊 Results & Insights 
 
 The clustering and classification models provided **valuable insights** into customer behavior, enabling data-driven decision-making for financial services.  

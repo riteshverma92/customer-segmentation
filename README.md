@@ -20,7 +20,10 @@
   
 
 ## Project Overview  
-This project focuses on a comprehensive analysis of credit card usage data to perform customer segmentation and classification. Using unsupervised learning techniques, specifically K-Means Clustering, customers are grouped into distinct segments based on their spending behaviors. Subsequently, a Decision Tree Classifier is trained to predict the cluster a new customer would belong to, providing a powerful tool for targeted marketing and strategic financial planning.  
+This project focuses on a comprehensive analysis of credit card usage data to perform customer segmentation and classification. Using unsupervised learning techniques, specifically K-Means Clustering, customers are grouped into distinct segments based on their spending behaviors.
+
+**Machine Learning pipeline** is used to streamline data preprocessing, clustering, and classification, ensuring a clear and reproducible workflow.
+Subsequently, a Decision Tree Classifier is trained to predict the cluster a new customer would belong to, providing a powerful tool for targeted marketing and strategic financial planning.
 
 ---
 

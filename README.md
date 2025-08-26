@@ -25,9 +25,6 @@ This project focuses on a comprehensive analysis of credit card usage data to pe
 **Machine Learning pipeline** is used to streamline data preprocessing, clustering, and classification, ensuring a clear and reproducible workflow.
 Subsequently, a Decision Tree Classifier is trained to predict the cluster a new customer would belong to, providing a powerful tool for targeted marketing and strategic financial planning.
 
----
-
-
 ## 🎯 Objectives  
 
 - **Customer Segmentation:** Apply unsupervised learning (K-Means Clustering) to categorize credit card customers into distinct, data-driven groups based on spending patterns and behavioral attributes.  
@@ -36,7 +33,6 @@ Subsequently, a Decision Tree Classifier is trained to predict the cluster a new
 - **Business Impact:** Deliver actionable insights to support targeted marketing, personalized financial services, customer retention strategies, and improved decision-making.  
 
 ---
-
 ## 🛠 Tech Stack  
 This project leverages a modern data science and machine learning stack to ensure efficient data processing, robust modeling, and professional visualization.  
 

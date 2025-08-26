@@ -15,7 +15,8 @@
   - [1. Train Models](#1-train-models)  
   - [2. Predict Models](#2-predict-models)
 - [Project Flow](#-project-flow)
-- [Results & Insights](#-results--insights)  
+- [Results & Insights](#-results--insights)
+- [Use Cases](#-Use-Cases)
 
 ---
 

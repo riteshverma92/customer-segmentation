@@ -40,7 +40,11 @@ This project leverages a modern data science and machine learning stack to ensur
 ### Development & Collaboration  
 - ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange?logo=jupyter) Interactive development and experimentation.  
 - ![venv](https://img.shields.io/badge/venv-Virtual%20Environment-yellow) Isolated project environment for dependencies.  
-- ![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github) Version control and collaboration platform.  
+- ![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github) Version control and collaboration platform.
+
+# 📂 Repository Structure
+```
+```
 
 
 ## 📊 Dataset  

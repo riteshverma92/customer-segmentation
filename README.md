@@ -187,7 +187,7 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
 
 ## 📊 Results & Insights 
 
-### Model Performance & Clustering  
+The clustering and classification models provided **valuable insights** into customer behavior, enabling data-driven decision-making for financial services.  
 
 <table>
   <tr>
@@ -203,8 +203,6 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
     </td>
   </tr>
 </table>
-
-The clustering and classification models provided **valuable insights** into customer behavior, enabling data-driven decision-making for financial services.  
 
 ### Key Insights:  
 - 🌟 **Distinct Customer Segments:** High spenders, installment-focused users, and cash-advance-reliant customers were clearly identified.  

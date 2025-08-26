@@ -1,4 +1,3 @@
-<a name="top"></a>
 # Credit Card Customer Segmentation & Classification
 <img width="650" height="320" alt="7c2b3102-b703-4e90-ac02-2ca6fe5461c1" src="https://github.com/user-attachments/assets/4c320060-b936-4026-8103-9b0925cc0e30" />
 
@@ -20,13 +19,6 @@
 - [Use Cases](#-Use-Cases)
 
 ---
-
-<div align="right">
- 
-[🔝](#top)
-
-</div>
-
 
 ## 📌 Project Overview
 Project applies a **Machine Learning pipeline** on credit card usage data to perform customer segmentation and classification. Customers are first grouped into segments using **K-Means Clustering**, and then a **Decision Tree Classifier** predicts the segment of new customers, supporting targeted marketing and strategic financial planning.

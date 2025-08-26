@@ -42,8 +42,39 @@ This project leverages a modern data science and machine learning stack to ensur
 - ![venv](https://img.shields.io/badge/venv-Virtual%20Environment-yellow) Isolated project environment for dependencies.  
 - ![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github) Version control and collaboration platform.
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 ```
+CUSTOMER-SEGMENTATION/
+├── data/
+│   ├── raw/
+│   │   └── Customer Data.csv
+│   └── processed/
+│       └── customer_processed.csv
+│
+├── models/
+│   ├── decision_tree.joblib
+│   └── kmeans_pipeline.joblib
+│
+├── reports/
+│   ├── classification_metrics.csv
+│   ├── classification_report.txt
+│   ├── confusion_matrix.png
+│   ├── distribution_of_data_for_missing_Value.png
+│   ├── kmeans_clusters.png
+│   └── kmeans_metrics.csv
+│
+├── src/
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── clustering.py
+│   ├── detect.py
+│   ├── preprocessing.py
+│   └── train.py
+│
+├── Project_Report.txt
+├── README.md
+└── requirements.txt
+
 ```
 
 

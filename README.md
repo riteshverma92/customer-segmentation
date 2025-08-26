@@ -187,18 +187,23 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
 
 ## 📊 Results & Insights 
 
+## 📊 Model Performance & Clustering  
+
 <table>
   <tr>
+    <th align="center">📈 Classification Report</th>
+    <th align="center">🔍 KMeans Clusters</th>
+  </tr>
+  <tr>
     <td align="center">
-      <h3>📈 Classification Report</h3>
-      <img src="https://github.com/user-attachments/assets/9a0732b0-7a2f-4d6a-8dc0-a57a2da890fe" alt="Classification Report" width="400"  height="320"/>
+      <img src="https://github.com/user-attachments/assets/9a0732b0-7a2f-4d6a-8dc0-a57a2da890fe" alt="Classification Report" width="400"/>
     </td>
     <td align="center">
-      <h3>🔍 KMeans Clusters</h3>
-      <img src="https://github.com/user-attachments/assets/eb69395a-c1cf-4cb8-b548-b73918f75dde" alt="KMeans Clusters" width="400" height="320"/>
+      <img src="https://github.com/user-attachments/assets/eb69395a-c1cf-4cb8-b548-b73918f75dde" alt="KMeans Clusters" width="400"/>
     </td>
   </tr>
 </table>
+
 The clustering and classification models provided **valuable insights** into customer behavior, enabling data-driven decision-making for financial services.  
 
 ### Key Insights:  

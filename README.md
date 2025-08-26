@@ -1,4 +1,4 @@
-# Credit Card Customer Segmentation & Classification 💳 
+# Credit Card Customer Segmentation & Classification
 <img width="700" height="350" alt="7c2b3102-b703-4e90-ac02-2ca6fe5461c1" src="https://github.com/user-attachments/assets/4c320060-b936-4026-8103-9b0925cc0e30" />
 
  ## 📑 Table of Contents  
@@ -150,7 +150,7 @@ python -m src.train
 ```bash
 python -m src.predict
 ```
-## 🔄 Project Flow  
+## 🔄 Pipeline Flow 
 
 The project follows a **structured pipeline** to ensure reproducibility, clarity, and scalability:  
 

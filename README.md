@@ -1,6 +1,6 @@
 # Credit Card Customer Segmentation & Classification
 <img width="650" height="320" alt="7c2b3102-b703-4e90-ac02-2ca6fe5461c1" src="https://github.com/user-attachments/assets/4c320060-b936-4026-8103-9b0925cc0e30" />
-
+<a name="top"></a>
  ## 📑 Table of Contents  
 
 - [Project Overview](#-project-overview)   
@@ -17,7 +17,7 @@
 - [Project Flow](#-project-flow)
 - [Results & Insights](#-results--insights)
 - [Use Cases](#-Use-Cases)
-
+<p align="right">[🔝 Back to Top](#top)</p>
 ---
 
 ## 📌 Project Overview
@@ -42,6 +42,7 @@ This project leverages a modern data science and machine learning stack to ensur
 - ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange?logo=jupyter) Interactive development and experimentation.  
 - ![venv](https://img.shields.io/badge/venv-Virtual%20Environment-yellow) Isolated project environment for dependencies.  
 - ![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github) Version control and collaboration platform.
+  <p align="right">[🔝 Back to Top](#top)</p>
 ---
 ## 📂 Repository Structure
 ```
@@ -77,7 +78,7 @@ CUSTOMER-SEGMENTATION/
 └── requirements.txt
 
 ```
-
+<p align="right">[🔝 Back to Top](#top)</p>
 ---
 ## 📊 Dataset  
 
@@ -105,7 +106,7 @@ The dataset provides comprehensive information on **credit card customers**, cap
 
 - **⏳ Customer Lifecycle**  
   - `TENURE`: Length of customer’s relationship with the bank  
-
+<p align="right">[🔝 Back to Top](#top)</p>
 ---
 
 ## 🚀 Setup Instructions  
@@ -139,7 +140,7 @@ pip install -r requirements.txt
 ```  
 
 ---
-
+<p align="right">[🔝 Back to Top](#top)</p>
 ## 🏃 Running the Project  
 
 ### 1. Train Models  
@@ -150,8 +151,11 @@ python -m src.train
 ### 2. Predict Models  
 ```bash
 python -m src.predict
+
 ```
+<p align="right">[🔝 Back to Top](#top)</p>
 ---
+
 ## 🔄 Pipeline Flow 
 
 
@@ -185,7 +189,8 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
 
 ### 6️⃣ Visualization & Reporting   
 - Summarize findings with plots and statistical insights.  
-- Document results for **business impact**.  
+- Document results for **business impact**.
+<p align="right">[🔝 Back to Top](#top)</p>
 ---
 ## 📊 Results & Insights 
 
@@ -210,7 +215,7 @@ The clustering and classification models provided **valuable insights** into cus
 -  Macro-average scores of **0.89** indicate fair treatment of smaller clusters, while weighted averages of **0.91** confirm strong performance on larger segments.  
 -  High spenders, installment-focused users, and cash-advance-reliant customers were clearly identified.  
 -  Each cluster showed unique patterns in spending frequency, repayment discipline, and credit utilization.  
-
+<p align="right">[🔝 Back to Top](#top)</p>
 ---
 
 ## 💼 Use Cases  
@@ -221,5 +226,5 @@ The clustering and classification models provided **valuable insights** into cus
 - **Financial Planning:** Help institutions optimize lending strategies and improve overall portfolio management.  
 - **Strategic Growth:** Use insights to expand services, cross-sell products, and maximize customer lifetime value (CLV).  
 
-
+<p align="right">[🔝 Back to Top](#top)</p>
 

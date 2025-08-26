@@ -18,10 +18,11 @@
 - [Results & Insights](#-results--insights)
 - [Use Cases](#-Use-Cases)
 <p align="right">
-  <a href="#-Credit-Card-Customer-Segmentation -&- Classification">
+  <a href="#-credit-card-customer-segmentation--classification">
     (back to top)
-  </a>
+  </a>
 </p>
+
 ---
 
 ## 📌 Project Overview

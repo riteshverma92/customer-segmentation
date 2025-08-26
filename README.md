@@ -18,7 +18,12 @@
 - [Project Flow](#-project-flow)
 - [Results & Insights](#-results--insights)
 - [Use Cases](#-Use-Cases)
-<p align="right">[🔝 Back to Top](#top)</p>
+
+<div align="right">
+
+[🔝 Back to Top](#top)
+
+</div>
 ---
 
 ## 📌 Project Overview

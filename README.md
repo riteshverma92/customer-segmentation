@@ -53,6 +53,7 @@ This project leverages a modern data science and machine learning stack to ensur
     Back to Top
   </a>
 </p>
+
 ---
 
 ## 📂 Repository Structure
@@ -127,6 +128,7 @@ The dataset provides comprehensive information on **credit card customers**, cap
     Back to Top
   </a>
 </p>
+
 ---
 
 ## 🚀 Setup Instructions  
@@ -158,13 +160,14 @@ python -m venv venv
 ```bash
 pip install -r requirements.txt
 ```  
-
----
 <p align="right">
   <a href="#credit-card-customer-segmentation--classification">
     Back to Top
   </a>
 </p>
+
+---
+
 ## 🏃 Running the Project  
 
 ### 1. Train Models  
@@ -182,6 +185,7 @@ python -m src.predict
     Back to Top
   </a>
 </p>
+
 ---
 
 ## 🔄 Pipeline Flow 
@@ -223,6 +227,7 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
     Back to Top
   </a>
 </p>
+
 ---
 ## 📊 Results & Insights 
 
@@ -252,6 +257,7 @@ The clustering and classification models provided **valuable insights** into cus
     Back to Top
   </a>
 </p>
+
 ---
 
 ## 💼 Use Cases  
@@ -267,4 +273,5 @@ The clustering and classification models provided **valuable insights** into cus
     Back to Top
   </a>
 </p>
+
 ---

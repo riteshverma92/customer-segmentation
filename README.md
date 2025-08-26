@@ -152,9 +152,9 @@ python -m src.predict
 ```
 ## 🔄 Pipeline Flow 
 
+---
 The project follows a **structured pipeline** to ensure reproducibility, clarity, and scalability:  
 
----
 
 ### 1️⃣ Data Collection & Understanding   
 - Load and explore the dataset (customer transactions & credit card behavior).  

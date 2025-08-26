@@ -3,8 +3,7 @@
 
  ## 📑 Table of Contents  
 
-- [📌 Project Overview](#-project-overview)  
-- [🎯 Objectives](#-objectives)  
+- [📌 Project Overview](#-project-overview)   
 - [🛠 Tech Stack](#-tech-stack)  
 - [📂 Dataset](#-dataset)  
 - [🚀 Setup Instructions](#-setup-instructions)  
@@ -19,18 +18,8 @@
 - [📊 Results & Insights](#-results--insights)  
   
 
-## Project Overview  
-This project focuses on a comprehensive analysis of credit card usage data to perform customer segmentation and classification. Using unsupervised learning techniques, specifically K-Means Clustering, customers are grouped into distinct segments based on their spending behaviors.
-
-**Machine Learning pipeline** is used to streamline data preprocessing, clustering, and classification, ensuring a clear and reproducible workflow.
-Subsequently, a Decision Tree Classifier is trained to predict the cluster a new customer would belong to, providing a powerful tool for targeted marketing and strategic financial planning.
-
-## 🎯 Objectives  
-
-- **Customer Segmentation:** Apply unsupervised learning (K-Means Clustering) to categorize credit card customers into distinct, data-driven groups based on spending patterns and behavioral attributes.  
-- **Behavioral Profiling:** Analyze and interpret each cluster to uncover unique financial habits, transaction trends, and customer characteristics.  
-- **Predictive Classification:** Develop a Decision Tree Classifier to accurately assign new customers to the most relevant segment.  
-- **Business Impact:** Deliver actionable insights to support targeted marketing, personalized financial services, customer retention strategies, and improved decision-making.  
+## 📌 Project Overview
+Project applies a **Machine Learning pipeline** on credit card usage data to perform customer segmentation and classification. Customers are first grouped into segments using **K-Means Clustering**, and then a **Decision Tree Classifier** predicts the segment of new customers, supporting targeted marketing and strategic financial planning.
 
 ---
 ## 🛠 Tech Stack  

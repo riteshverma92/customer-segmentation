@@ -185,13 +185,26 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
 - Summarize findings with plots and statistical insights.  
 - Document results for **business impact**.  
 
-## 📊 Results & Insights  
+## 📊 Results & Insights 
+
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 1; text-align: center;">
+    <h3>📈 Classification Report</h3>
+    <img src="https://github.com/user-attachments/assets/9a0732b0-7a2f-4d6a-8dc0-a57a2da890fe" alt="Classification Report" width="100%" />
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <h3>🔍 KMeans Clusters</h3>
+    <img src="https://github.com/user-attachments/assets/eb69395a-c1cf-4cb8-b548-b73918f75dde" alt="KMeans Clusters" width="100%" />
+  </div>
+</div>
 
 The clustering and classification models provided **valuable insights** into customer behavior, enabling data-driven decision-making for financial services.  
 
 ### Key Insights:  
-- 🌟 **Distinct Customer Segments:** High spenders, installment-focused users, cash-advance-reliant customers.  
-- 🧠 **Behavioral Profiling:** Unique spending frequency, repayment discipline, and credit utilization trends.  
-- ✅ **Predictive Power:** Decision Tree Classifier accurately assigns new customers to relevant segments.  
-- 💼 **Business Value:** Supports personalized marketing, credit risk assessment, and customer retention.  
+- 🌟 **Distinct Customer Segments:** High spenders, installment-focused users, and cash-advance-reliant customers were clearly identified.  
+- 🧠 **Behavioral Profiling:** Each cluster showed unique patterns in spending frequency, repayment discipline, and credit utilization.  
+- ✅ **Strong Predictive Power:** The Decision Tree Classifier achieved **91% accuracy**, with precision, recall, and F1-scores consistently high (0.85–0.94), ensuring reliable classification across all customer groups.  
+- 📈 **Balanced Performance:** Macro-average scores of **0.89** indicate fair treatment of smaller clusters, while weighted averages of **0.91** confirm strong performance on larger segments.  
+- 💼 **Business Value:** These insights support **personalized marketing**, **credit risk assessment**, and **customer retention strategies**.  
+
 

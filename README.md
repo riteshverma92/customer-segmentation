@@ -150,9 +150,10 @@ python -m src.train
 ```bash
 python -m src.predict
 ```
+---
 ## 🔄 Pipeline Flow 
 
----
+
 The project follows a **structured pipeline** to ensure reproducibility, clarity, and scalability:  
 
 

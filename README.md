@@ -54,7 +54,9 @@ This project leverages a modern data science and machine learning stack to ensur
   </a>
 </p>
 ---
+
 ## 📂 Repository Structure
+
 ```
 CUSTOMER-SEGMENTATION/
 ├── data/
@@ -87,6 +89,7 @@ CUSTOMER-SEGMENTATION/
 ├── README.md
 └── requirements.txt
 ```
+
 <p align="right">
   <a href="#credit-card-customer-segmentation--classification">
     Back to Top
@@ -119,7 +122,11 @@ The dataset provides comprehensive information on **credit card customers**, cap
 
 - **⏳ Customer Lifecycle**  
   - `TENURE`: Length of customer’s relationship with the bank  
-<p align="right">[🔝 Back to Top](#top)</p>
+<p align="right">
+  <a href="#credit-card-customer-segmentation--classification">
+    Back to Top
+  </a>
+</p>
 ---
 
 ## 🚀 Setup Instructions  
@@ -153,7 +160,11 @@ pip install -r requirements.txt
 ```  
 
 ---
-<p align="right">[🔝 Back to Top](#top)</p>
+<p align="right">
+  <a href="#credit-card-customer-segmentation--classification">
+    Back to Top
+  </a>
+</p>
 ## 🏃 Running the Project  
 
 ### 1. Train Models  
@@ -166,7 +177,11 @@ python -m src.train
 python -m src.predict
 
 ```
-<p align="right">[🔝 Back to Top](#top)</p>
+<p align="right">
+  <a href="#credit-card-customer-segmentation--classification">
+    Back to Top
+  </a>
+</p>
 ---
 
 ## 🔄 Pipeline Flow 
@@ -203,7 +218,11 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
 ### 6️⃣ Visualization & Reporting   
 - Summarize findings with plots and statistical insights.  
 - Document results for **business impact**.
-<p align="right">[🔝 Back to Top](#top)</p>
+<p align="right">
+  <a href="#credit-card-customer-segmentation--classification">
+    Back to Top
+  </a>
+</p>
 ---
 ## 📊 Results & Insights 
 
@@ -228,7 +247,11 @@ The clustering and classification models provided **valuable insights** into cus
 -  Macro-average scores of **0.89** indicate fair treatment of smaller clusters, while weighted averages of **0.91** confirm strong performance on larger segments.  
 -  High spenders, installment-focused users, and cash-advance-reliant customers were clearly identified.  
 -  Each cluster showed unique patterns in spending frequency, repayment discipline, and credit utilization.  
-<p align="right">[🔝 Back to Top](#top)</p>
+<p align="right">
+  <a href="#credit-card-customer-segmentation--classification">
+    Back to Top
+  </a>
+</p>
 ---
 
 ## 💼 Use Cases  
@@ -239,5 +262,9 @@ The clustering and classification models provided **valuable insights** into cus
 - **Financial Planning:** Help institutions optimize lending strategies and improve overall portfolio management.  
 - **Strategic Growth:** Use insights to expand services, cross-sell products, and maximize customer lifetime value (CLV).  
 
-<p align="right">[🔝 Back to Top](#top)</p>
-
+<p align="right">
+  <a href="#credit-card-customer-segmentation--classification">
+    Back to Top
+  </a>
+</p>
+---

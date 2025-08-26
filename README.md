@@ -187,7 +187,7 @@ The project follows a **structured pipeline** to ensure reproducibility, clarity
 
 ## 📊 Results & Insights 
 
-## 📊 Model Performance & Clustering  
+### Model Performance & Clustering  
 
 <table>
   <tr>
